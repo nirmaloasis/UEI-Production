@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="uei.Add_new_partsController">
+<children><Label layoutX="189.0048828125" layoutY="40.5" text="Enter the details" textFill="#1129dd" underline="true">
+<font>
+<Font name="Calibri Bold" size="28.0" />
+</font></Label><Label layoutX="148.0048828125" layoutY="116.5" text="Part Number :">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Label><Label layoutX="148.009765625" layoutY="170.5" text="Part Name :">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Label><Label layoutX="148.009765625" layoutY="227.5" text="Group number :">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Label><Label layoutX="148.009765625" layoutY="281.5" text="Amount Required :">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Label><TextField fx:id="p_number" layoutX="307.0" layoutY="114.0" /><TextField fx:id="p_name" layoutX="307.24609375" layoutY="168.0" /><TextField fx:id="g_number" layoutX="306.7509765625" layoutY="225.0" /><TextField fx:id="amt_r" layoutX="306.7509765625" layoutY="279.0" /><Button layoutX="392.1875" layoutY="335.5" mnemonicParsing="false" onAction="#action_add" text="Add ">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Button><Button layoutX="274.0" layoutY="336.0" mnemonicParsing="false" onAction="#action_back" text="Back">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Button>
+</children></AnchorPane>

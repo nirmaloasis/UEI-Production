@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uei.ContactController">
+<children><Label layoutX="80.0048828125" layoutY="82.5" text="Contact" textFill="#0bee1e" underline="true">
+<font>
+<Font name="Algerian" size="36.0" />
+</font></Label><Label layoutX="80.009765625" layoutY="183.0" text="Mail @ -nirmaloasis@hotmail.com">
+<font>
+<Font name="Arial Black" size="14.0" />
+</font></Label><Button fx:id="back" layoutX="80.197265625" layoutY="259.5" mnemonicParsing="false" onAction="#action_back" text="Back">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Button>
+</children></AnchorPane>

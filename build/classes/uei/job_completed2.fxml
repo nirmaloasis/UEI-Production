@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uei.Job_completedController">
+<children><TableView fx:id="table_job" layoutX="26.0" layoutY="29.0" prefHeight="274.0" prefWidth="555.0" /><Button layoutX="14.1875" layoutY="348.5" mnemonicParsing="false" onAction="#action_back" text="Back">
+<font>
+<Font name="Calibri" size="14.0" />
+</font></Button>
+</children></AnchorPane>

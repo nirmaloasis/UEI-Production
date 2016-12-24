@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uei.Purchase_partsController">
+<children><Label layoutX="181.0" layoutY="39.0" text="Purchase Request" underline="true">
+<font>
+<Font name="Arial Black" size="24.0" />
+</font></Label><Label layoutX="46.0048828125" layoutY="94.5" /><Label layoutX="41.0" layoutY="95.0" text="Part's Name :">
+<font>
+<Font name="Calibri" size="14.0" />
+</font></Label><Label layoutX="41.0" layoutY="126.0" text="Item Code :">
+<font>
+<Font name="Calibri" size="14.0" />
+</font></Label><Label layoutX="41.0" layoutY="158.0" text="Number of Items :">
+<font>
+<Font name="Calibri" size="14.0" />
+</font></Label><Label layoutX="41.0" layoutY="192.0" text="Required Before :">
+<font>
+<Font name="Calibri" size="14.0" />
+</font></Label><Label layoutX="36.0" layoutY="228.0" text=" Requested Employee Id :">
+<font>
+<Font name="Calibri" size="14.0" />
+</font></Label><Label layoutX="41.0" layoutY="262.0" text="Requested Employee Name :">
+<font>
+<Font name="Calibri" size="14.0" />
+</font></Label><Label layoutX="42.0" layoutY="341.0" text="Requested Date :">
+<font>
+<Font name="Calibri" size="14.0" />
+</font></Label><Label layoutX="41.0" layoutY="302.0" text="Department :">
+<font>
+<Font name="Calibri" size="14.0" />
+</font></Label><Label fx:id="part_name" layoutX="231.0048828125" layoutY="94.5" text="Label">
+<font>
+<Font size="14.0" />
+</font></Label><Label fx:id="part_code" layoutX="231.0" layoutY="126.0" text="Label">
+<font>
+<Font size="14.0" />
+</font></Label><Label fx:id="part_no" layoutX="231.009765625" layoutY="158.0" text="Label">
+<font>
+<Font size="14.0" />
+</font></Label><Label fx:id="part_date" layoutX="231.0146484375" layoutY="192.0" text="Label">
+<font>
+<Font size="14.0" />
+</font></Label><Label fx:id="emp_id" layoutX="231.01953125" layoutY="228.0" text="Label">
+<font>
+<Font size="14.0" />
+</font></Label><Label fx:id="emp_name" layoutX="231.009765625" layoutY="262.0" text="Label">
+<font>
+<Font size="14.0" />
+</font></Label><Label fx:id="dept" layoutX="231.009765625" layoutY="302.0" text="Label">
+<font>
+<Font size="14.0" />
+</font></Label><Label fx:id="req_date" layoutX="231.0" layoutY="341.0" text="Label">
+<font>
+<Font size="14.0" />
+</font></Label><Button layoutX="527.0" layoutY="14.0" mnemonicParsing="false" onAction="#action_back" text="Back">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Button>
+</children></AnchorPane>

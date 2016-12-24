@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="uei.Add_new_empController">
+<children><Label layoutX="180.0048828125" layoutY="74.5" text="Enter the details" textFill="#1316da" underline="true">
+<font>
+<Font name="Arial Bold" size="24.0" />
+</font></Label><Label layoutX="128.0048828125" layoutY="167.5" text="Employee ID :">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Label><Label layoutX="128.009765625" layoutY="219.5" text="Employee Name :">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Label><TextField fx:id="e_number" layoutX="259.74609375" layoutY="165.0" /><TextField fx:id="e_name" layoutX="259.9921875" layoutY="217.0" /><Button layoutX="357.1796875" layoutY="307.5" mnemonicParsing="false" onAction="#action_add" text="Add">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Button><Button layoutX="207.93359375" layoutY="307.5" mnemonicParsing="false" onAction="#action_back" text="Back">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Button>
+</children></AnchorPane>

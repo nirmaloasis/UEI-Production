@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uei.Add_reportController">
+<children><Label layoutX="174.0048828125" layoutY="41.5" text="Enter the details" textFill="#15ee73" underline="true">
+<font>
+<Font name="System Bold" size="24.0" />
+</font></Label><Label layoutX="83.0048828125" layoutY="103.5" text="Employee Name :">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Label><Label layoutX="83.0" layoutY="143.0" text="Job Name :">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Label><Label layoutX="83.0048828125" layoutY="183.0" text="Item's completed :">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Label><Label layoutX="83.0048828125" layoutY="230.5" text="Completed Date :">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Label><ComboBox fx:id="combobox" editable="true" layoutX="234.0" layoutY="101.0" prefWidth="150.0" /><ComboBox fx:id="combo_job" editable="true" layoutX="234.0" layoutY="140.5" prefWidth="150.0" /><TextField fx:id="number" layoutX="234.74609375" layoutY="180.5" /><DatePicker fx:id="dp" layoutX="235.0" layoutY="228.0" prefHeight="25.0" prefWidth="150.0" /><Button fx:id="add" layoutX="320.0" layoutY="313.0" mnemonicParsing="false" onAction="#action_add" prefHeight="30.0" prefWidth="60.0" text="Add">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Button><Button layoutX="208.0" layoutY="313.0" mnemonicParsing="false" onAction="#action_back" text="Back">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Button>
+</children></AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uei.Report_graphController">
+<children><DatePicker fx:id="start" layoutX="26.0" layoutY="116.0" /><DatePicker fx:id="end" layoutX="267.0" layoutY="116.0" /><Button fx:id="generate" layoutX="498.0" layoutY="116.0" mnemonicParsing="false" onAction="#action_graph" text="Generate">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Button><LineChart fx:id="linechart" alternativeColumnFillVisible="true" layoutX="50.0" layoutY="158.0" title="Employee Report">
+  <xAxis>
+    <CategoryAxis side="BOTTOM" />
+  </xAxis>
+  <yAxis>
+    <NumberAxis side="LEFT" />
+  </yAxis>
+</LineChart><ComboBox fx:id="combobox" editable="true" layoutX="150.0" layoutY="31.0" prefWidth="150.0" /><Label layoutX="26.0048828125" layoutY="33.0" text="Select Employee :">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Label><Label layoutX="26.0" layoutY="79.0" text="Starting Date" underline="true">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Label><Label layoutX="267.0048828125" layoutY="79.0" text="Ending Date" underline="true">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Label><Button layoutX="524.1875" layoutY="30.5" mnemonicParsing="false" onAction="#action_back" text="Back">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Button>
+</children></AnchorPane>

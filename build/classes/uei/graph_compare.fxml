@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="uei.Graph_compareController">
+<children><Button fx:id="generate" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#action_graph" text="Generate">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Button><LineChart fx:id="linechart" layoutX="13.0" layoutY="47.0" prefHeight="349.0" prefWidth="575.0">
+  <xAxis>
+    <CategoryAxis side="BOTTOM" />
+  </xAxis>
+  <yAxis>
+    <NumberAxis side="LEFT" />
+  </yAxis>
+</LineChart><Button layoutX="534.0" layoutY="14.0" mnemonicParsing="false" onAction="#action_back" text="Back">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Button>
+</children></AnchorPane>

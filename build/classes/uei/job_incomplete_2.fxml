@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uei.Job_incompleteController">
+<children><Label layoutX="208.0" layoutY="42.0" text="Incomplete Jobs" textFill="#9f14c9" underline="true">
+<font>
+<Font name="System Bold" size="24.0" />
+</font></Label><Label layoutX="78.0048828125" layoutY="93.5" text="Select Job Name :">
+<font>
+<Font name="Calibri Bold" size="14.0" />
+</font></Label><ComboBox fx:id="combobox" editable="true" layoutX="208.0" layoutY="90.0" prefHeight="25.0" prefWidth="162.0" /><Button layoutX="441.1875" layoutY="90.0" mnemonicParsing="false" onAction="#action_button" text="Status">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Button><PieChart fx:id="piechart" layoutX="5.0" layoutY="127.0" prefHeight="430.0" prefWidth="585.0" title="Status of Job" /><Label layoutX="85.0" layoutY="566.0" text="Cut off Date :">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Label><Label fx:id="display" layoutX="182.0" layoutY="558.0" prefHeight="30.0" prefWidth="135.0" wrapText="true">
+<font>
+<Font name="System Bold" size="14.0" />
+</font></Label><Button layoutX="28.1875" layoutY="17.0" mnemonicParsing="false" onAction="#action_back" text="Back">
+<font>
+<Font name="Calibri" size="14.0" />
+</font></Button>
+</children></AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uei.Submt_jobController">
+<children><TableView fx:id="table" layoutX="46.0" layoutY="37.0" prefHeight="164.0" prefWidth="500.0" /><Button layoutX="426.0" layoutY="528.0" mnemonicParsing="false" onAction="#action_newjob" prefHeight="43.0" prefWidth="145.0" text="Add New Job">
+<font>
+<Font size="18.0" />
+</font></Button><Label layoutX="124.0" layoutY="507.0" text="Job Name :">
+<font>
+<Font name="Calibri" size="14.0" />
+</font></Label><Label layoutX="124.0" layoutY="554.0" text="Cut off Date : ">
+<font>
+<Font name="Calibri" size="14.0" />
+</font></Label><TextField fx:id="job_name" layoutX="209.0" layoutY="503.0" prefHeight="25.0" prefWidth="174.0" /><DatePicker fx:id="cutoff" layoutX="209.0" layoutY="550.0" /><Button layoutX="14.0" layoutY="549.0" mnemonicParsing="false" onAction="#action_back" text="Back">
+<font>
+<Font name="Calibri Bold" size="14.0" />
+</font></Button><PieChart fx:id="piechart" layoutX="50.0" layoutY="214.0" legendSide="LEFT" prefHeight="276.0" prefWidth="500.0" title="Parts Needed" />
+</children></AnchorPane>

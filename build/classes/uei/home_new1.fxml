@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uei.Home_ueiController">
+<children><Label fx:id="head" layoutX="393.0" layoutY="53.0" prefHeight="27.0" prefWidth="149.0" text="DEPARTMENT ">
+<font>
+<Font name="Arial Black" size="18.0" />
+</font>
+<textFill>
+<RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+<stops>
+<Stop color="BLACK" />
+<Stop color="#cd561f" offset="0.007722007722007722" />
+<Stop color="WHITE" offset="1.0" />
+</stops>
+</RadialGradient>
+</textFill></Label><MenuBar layoutY="2.0">
+  <menus>
+    <Menu mnemonicParsing="false" text="Purchase">
+<items><MenuItem fx:id="purchase" mnemonicParsing="false" onAction="#action_purchase" text="Purchase Request" />
+</items>
+    </Menu>
+    <Menu mnemonicParsing="false" text="Work Flow">
+      <items><MenuItem fx:id="job" mnemonicParsing="false" onAction="#action_job" text="New Job" /><MenuItem mnemonicParsing="false" onAction="#action_completed" text="Completed jobs" /><MenuItem mnemonicParsing="false" onAction="#action_incomplete" text="Incomplete jobs" />
+      </items>
+    </Menu>
+    <Menu mnemonicParsing="false" text="Edit">
+      <items><MenuItem mnemonicParsing="false" onAction="#action_add_product" text="Add New Product" /><MenuItem mnemonicParsing="false" onAction="#action_add_parts" text="Add New Parts" /><MenuItem mnemonicParsing="false" onAction="#action_emp" text="Add New Employee" />
+      </items>
+    </Menu>
+  </menus>
+</MenuBar><MenuBar layoutX="190.0" layoutY="2.0">
+  <menus>
+    <Menu mnemonicParsing="false" text="Employee Record">
+      <items>
+        <MenuItem mnemonicParsing="false" onAction="#add_report" text="Add Report" /><MenuItem mnemonicParsing="false" onAction="#action_graph" text="Report" /><MenuItem mnemonicParsing="false" onAction="#action_total" text="Total Work Status" /><MenuItem mnemonicParsing="false" onAction="#action_compare" text="Compare" />
+      </items>
+    </Menu>
+    <Menu mnemonicParsing="false" text="Logout">
+      <items>
+        <MenuItem mnemonicParsing="false" onAction="#action_logout" text="Log Out" />
+      </items>
+    </Menu>
+    <Menu mnemonicParsing="false" text="Help">
+      <items>
+        <MenuItem mnemonicParsing="false" onAction="#action_contact" text="Contact" />
+      </items>
+    </Menu>
+  </menus>
+</MenuBar><Label layoutX="453.0" layoutY="91.0" prefHeight="27.0" prefWidth="30.0" text="OF">
+<font>
+<Font name="Arial Black" size="18.0" />
+</font>
+<textFill>
+<RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+<stops>
+<Stop color="BLACK" />
+<Stop color="#cd561f" offset="0.007722007722007722" />
+<Stop color="WHITE" offset="1.0" />
+</stops>
+</RadialGradient>
+</textFill>
+</Label>
+<Label layoutX="393.0" layoutY="130.0" prefHeight="27.0" prefWidth="149.0" text="PRODUCTION">
+<font>
+<Font name="Arial Black" size="18.0" />
+</font>
+<textFill>
+<RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+<stops>
+<Stop color="BLACK" />
+<Stop color="#cd561f" offset="0.007722007722007722" />
+<Stop color="WHITE" offset="1.0" />
+</stops>
+</RadialGradient>
+</textFill>
+</Label>
+<Label layoutX="31.0" layoutY="277.0" prefHeight="27.0" prefWidth="100.0" text="U.E.I ,Ltd ">
+<font>
+<Font name="Arial Black" size="18.0" />
+</font>
+<textFill>
+<RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+<stops>
+<Stop color="BLACK" />
+<Stop color="#cd561f" offset="0.007722007722007722" />
+<Stop color="WHITE" offset="1.0" />
+</stops>
+</RadialGradient>
+</textFill>
+</Label>
+<Label layoutX="45.0" layoutY="314.0" prefHeight="27.0" prefWidth="72.0" text="Kollam">
+<font>
+<Font name="Arial Black" size="18.0" />
+</font>
+<textFill>
+<RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+<stops>
+<Stop color="BLACK" />
+<Stop color="#cd561f" offset="0.007722007722007722" />
+<Stop color="WHITE" offset="1.0" />
+</stops>
+</RadialGradient>
+</textFill>
+</Label>
+</children></AnchorPane>
